@@ -1,2 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --color-bg-nav: #fff9f4;
+  --font-header: "ADLaM Display", system-ui;
+  --font-text: "Sora", sans-serif;
+}
