@@ -11,9 +11,5 @@
       "src": "/(.*)",
       "dest": "src/index.html"
     }
-  ],
-
-  "scripts": {
-    "build": "tailwindcss-i ./src/input.css -o ./src/output.css --minify"
-  }
+  ]
 }
